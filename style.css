@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --primary-color: #482ff7;
+    --secondary-color: #f0f0f0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    width: 40;
+    height: 40;
+}
+
+.form {
+    width: 90%;
+}
+
+.image-card {
+    cursor: pointer;
+}
